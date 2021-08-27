@@ -1,0 +1,113 @@
+body {
+    display:flex;
+    flex-wrap: wrap;
+    
+    padding: 20px;
+    margin: 20px;
+    height: auto;
+    background-image: url("../src/image9.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;;
+}
+
+#doc {
+  text-align: left;
+  color: white;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60%;
+  list-style: none;
+  width: 30%;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+.raed1{
+    background-color: red;
+}
+
+.all{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-grow: 10px;
+    height: 300px;
+    width: 230px;
+    padding: 10px;
+    margin:20px;
+    background-color: rgb(137, 177, 214);
+    
+}
+.itemTitle {
+  width: 100%;
+  text-align: center;
+}
+.totalprice{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card img {
+    height: 50%;
+    width: 100%;
+    margin: 0 10px 10px 10px;
+    
+}
+
+input {
+  height: 20px;
+}
+
+.card i {
+      margin-top: 10px;
+  }
+
+.like {
+  margin-right: 10px;
+  color: grey;
+  background: wheat;
+}
+
+ .price {
+   display:flex;
+   flex-direction: row;
+   align-items:  center;
+ }
+
+ .plus {
+   border: transparent;
+ }
+
+ .moins {
+   border: transparent;
+ }
+ 
+.btnRemove {
+  margin-left: 30px;
+  border-radius: 30%;
+}
+.liked {
+  color:black;
+  background: red;
+}
+
+ 
